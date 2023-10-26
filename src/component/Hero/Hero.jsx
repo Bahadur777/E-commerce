@@ -1,8 +1,8 @@
 import React from 'react'
 import './hero.css'
-import HandIcons from '../images/hand_icon.png'
-import ArrowIcons from '../images/arrow.png'
-import HeroImg from '../images/hero_image.png'
+import HandIcons from '../../images/hand_icon.png'
+import ArrowIcons from '../../images/arrow.png'
+import HeroImg from '../../images/hero_image.png'
 
 const Hero = () => {
   return (

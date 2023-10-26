@@ -1,0 +1,19 @@
+.popular-item{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.popular{
+    width: 90%;
+    margin: 20px auto;
+}
+.popular h1 {
+    text-align: center;
+    text-transform: uppercase;
+}
+.popular hr{
+    width: 50%;
+    margin: 10px  auto 30px auto;
+    
+}
