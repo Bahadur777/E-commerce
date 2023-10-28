@@ -1,0 +1,40 @@
+.footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 20px 0 20px 0;
+    flex-direction: column;
+}
+.footer-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.footer-img h1 {
+   color: #EBA72E; 
+}
+.footer_link{
+    display: flex;
+    
+}
+.link_list{
+    display: flex;
+    gap: 20px;
+    text-transform: capitalize;
+    justify-content: center;
+    align-items: center;
+}
+.footer_icons ul{
+    display: flex;
+    gap: 20px;
+    text-transform: capitalize;
+    justify-content: center;
+    align-items: center;
+}
+.footer hr{
+    width: 90%;
+    margin: 0 auto;
+}
