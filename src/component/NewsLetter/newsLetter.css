@@ -1,0 +1,36 @@
+.news_letter{
+    width: 90%;
+    margin:  100px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+    background: rgb(34,195,147);
+background: linear-gradient(180deg, rgba(34,195,147,0.4206057422969187) 0%, rgba(253,187,45,1) 100%);
+ padding: 50px 0;
+}
+.new_head{
+
+    text-align: center;
+}
+.new_head h1{
+    text-transform: uppercase;
+    padding: 15px 0;
+}
+.news-element input{
+    padding:  15px 10px;
+    border: none;
+    outline: none;
+    width: 400px;
+    border-radius: 25px;
+}
+.news-element button{
+    padding: 15px 10px;
+    border: none;
+    background-color: #000;
+    color: #fff;
+    width: 150px;
+    border-radius: 25px;
+    margin-left: -30px;
+}

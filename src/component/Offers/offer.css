@@ -3,8 +3,6 @@ width: 70%;
 margin: 40px auto;
 display: flex;
 height: 60vh;
-background: rgb(34,195,147);
-background: linear-gradient(180deg, rgba(34,195,147,0.4206057422969187) 0%, rgba(253,187,45,1) 100%);
 
 }
 .offer-left{
