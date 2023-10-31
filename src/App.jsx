@@ -20,8 +20,8 @@ const App = () => {
       <Routes>
        <Route path='/' element={<MainShop/>} />
        <Route path='/men' element={<ShopCategory banner = {men_banner} category = "men"/>} />
-       <Route path='/women' banner ={women_banner} element={<ShopCategory category = "women"/>} />
-       <Route path='/kids' banner = {kid_banner} element={<ShopCategory category = "kids"/>} />
+       <Route path='/women' element={<ShopCategory  banner ={women_banner} category = "women"/>} />
+       <Route path='/kids'  element={<ShopCategory banner = {kid_banner} category = "kids"/>} />
        <Route path='/product' element={<Product/>}>
           <Route path=':productId' element= {<Product/>}/>
        </Route>
