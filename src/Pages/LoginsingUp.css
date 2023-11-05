@@ -1,0 +1,47 @@
+.login-sinup{
+width: 100%;
+padding: 100px 0;
+background-color: #F7B030;
+}
+.login-signup-container{
+    width: 500px;
+    height: auto;
+    margin: 0 auto;
+    padding: 40px;
+    background-color: #ffffff;
+}
+.login-signup-container h1{
+    font-size: 26px;
+    text-transform: capitalize;
+}
+.login-signup-fild{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin: 10px 0;
+}
+.login-signup-fild input{
+    padding: 10px;
+}
+ .btn {
+    width: 100%;
+    background: red;
+    border: none;
+    padding: 10px;
+    color: #fff;
+    text-transform: capitalize;
+    align-items: center;
+    font-size: 18px;
+}
+.area{
+    padding: 5px 0;
+}
+.area span{
+    color: red;
+    text-transform: capitalize;
+}
+.login-singup-area{
+    display: flex;
+    gap: 20px;
+}
